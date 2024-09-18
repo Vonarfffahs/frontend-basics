@@ -1,0 +1,57 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+    font-size: 36px;
+    text-align: center;
+}
+
+header {
+    background-color: lightblue;
+    height: 100px;
+    line-height: 100px;
+}
+
+article {
+    height: 400px;
+    line-height: 400px;
+}
+
+figure {
+    background-color: lightgreen;
+    margin: 0;
+    height: 100%;
+}
+
+p {
+    background-color: rgb(53, 144, 53);
+    margin: 0;
+    height: 100%;
+}
+
+footer {
+    background-color: lightpink;
+    height: 250px;
+    line-height: 250px;
+}
+
+#figure-float {
+    float: left;
+    width: 85%;
+}
+
+#p-float {
+    float: right;
+    width: 15%;
+}
+
+#article-flex {
+    display: flex;
+}
+
+#figure-flex {
+    flex: 8 1 auto;
+}
+
+#p-flex {
+    flex: 1 1 auto;
+}

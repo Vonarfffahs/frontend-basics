@@ -1,0 +1,121 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 0 2rem 0;
+}
+
+table {
+    width: 45.7vw; 
+    height: 15.2vw;
+    text-align: center;
+}
+
+td {
+    height: 25%;
+}
+
+tr:nth-child(1) {
+    background-color: #078f8f;
+    color: #FFFFFF;
+}
+tr:nth-child(2) {
+    background-color: #f5f507;
+    color: #000000;
+}
+
+tr:nth-child(1):hover {
+    background-color: #f87070;
+    color: #000000;
+}
+tr:nth-child(2):hover {
+    background-color: #0a0af8;
+    color: #FEF8F4;
+}
+
+.flex {
+    display: flex;
+}
+
+.watches-variant-1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: #F5F5F5;
+    margin: 0 1rem 0 0;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.vertical-arrow-variant-1 {
+    width: 8px;
+    height: 115px;
+    position: absolute;
+    top: 25px;
+    left: 107px;
+    background-color: black;
+}
+
+.horizontal-arrow-variant-1 {
+    width: 90px;
+    height: 8px;
+    position: absolute;
+    top: 107px;
+    left: 90px;
+    background-color: black;
+}
+
+/*--------------------------*/
+.watches-variant-2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: #F5F5F5;
+}
+
+.dot1 {
+    transform: translate(89px);
+}
+
+.dot2 {
+    transform: translate(89px, 178px);
+}
+
+.dot3 {
+    transform: translate(0px, 89px);
+}
+
+.dot4 {
+    transform: translate(178px, 89px);
+}
+
+.vertical-arrow-variant-2 {
+    width: 8px;
+    height: 115px;
+    background-color: black;
+    transform: translate(96px, 12px);
+}
+
+.horizontal-arrow-variant-2 {
+    width: 8px;
+    height: 90px;
+    background-color: black;
+    transform: translate(120px, -60px) rotate(90deg)
+}
