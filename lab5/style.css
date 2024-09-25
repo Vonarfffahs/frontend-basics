@@ -1,0 +1,92 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+h2 {
+    margin: 0 0 1rem 0;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form-variant7 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 0 0;
+    width: 20vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.sent-data {
+    width: 20vw;
+    height: 250px;
+    background-color: darkgray;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.color-table {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 0 2rem 0;
+}
+
+table {
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+  }
