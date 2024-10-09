@@ -1,0 +1,11 @@
+.btn-wrapper {
+  margin: 0 0 2rem 0;
+}
+
+.btn-wrapper > button {
+  margin: 0 1rem 0 0;
+}
+
+img {
+  margin: 0 1rem 0 0;
+}

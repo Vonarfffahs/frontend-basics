@@ -1,0 +1,14 @@
+.eighth-elem-color-change {
+  background-color: #123456;
+  color: #ffffff;
+}
+
+.ninth-elem-color-change {
+  background-color: #de8327;
+  color: #ffffff;
+}
+
+#eighth-element:hover,
+#ninth-element:hover {
+  cursor: pointer;
+}
